@@ -1,0 +1,26 @@
+{
+  "name": "css-zero-simple",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "devServer --package css-zero-simple",
+    "build": "devBuild --package css-zero-simple"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "benchmarks-utils": "1.0.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^2.8.0",
+    "css-zero": "^0.2.2",
+    "dev-tasks": "1.0.0"
+  },
+  "benchmarks": {
+    "name": "css-zero",
+    "link": "https://github.com/CraigCav/css-zero",
+    "useInlineStyles": true,
+    "useCss": true
+  }
+}

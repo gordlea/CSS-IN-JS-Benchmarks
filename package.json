@@ -1,15 +1,11 @@
 {
-  "disabled": [
-    "packages/benchmarks/styletron/css",
-    "packages/benchmarks/styletron/themed"
-  ],
   "workspaces": [
     "packages/tests",
     "packages/benchmarks-utils",
     "packages/dev-tasks",
     "packages/benchmarks/react",
-    "packages/benchmarks/react-inline-styles",
     "packages/benchmarks/react-css",
+    "packages/benchmarks/react-inline-styles",
     "packages/benchmarks/emotion/simple",
     "packages/benchmarks/emotion/css-mode",
     "packages/benchmarks/emotion/extract-static",
@@ -17,7 +13,10 @@
     "packages/benchmarks/styled-components/decouple-cell",
     "packages/benchmarks/styled-components/inline-style",
     "packages/benchmarks/styled-components/themed",
-    "packages/benchmarks/styletron/simple"
+    "packages/benchmarks/styletron/simple",
+    "packages/benchmarks/styletron/css",
+    "packages/benchmarks/styletron/themed",
+    "packages/benchmarks/css-zero-simple"
   ],
   "private": true,
   "devDependencies": {

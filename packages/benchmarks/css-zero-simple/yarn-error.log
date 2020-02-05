@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/johlea/.nvm/versions/node/v10.17.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add --dev css-zero
+
+PATH: 
+  /Users/johlea/Library/Python/3.7/bin:/usr/local/opt/curl/bin:/Users/johlea/dev/website/vendor/bin:/Users/johlea/dev/website/bin:/usr/local/opt/python/libexec/bin:/Users/johlea/.gvm/bin:/Users/johlea/.nvm/versions/node/v10.17.0/bin:/Users/johlea/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/go/libexec/bin:/Users/johlea/.yarn/bin:/usr/local/opt/go/libexec/bin:/Users/johlea/dev/go/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/benchmarks-utils: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:140665:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141637:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1143:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "table-react-inline-styles-big-table",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "devServer --package react-inline-styles",
+      "build": "devBuild --package react-inline-styles"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "benchmarks-utils": "1.0.0",
+      "react": "16.12.0",
+      "react-dom": "16.12.0"
+    },
+    "devDependencies": {
+      "dev-tasks": "1.0.0"
+    },
+    "benchmarks": {
+      "name": "react (with inline-styles)",
+      "link": "https://github.com/facebook/react",
+      "useInlineStyles": true
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
